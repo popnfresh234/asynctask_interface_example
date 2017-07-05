@@ -25,7 +25,5 @@ public class MyAsyncTask extends AsyncTask<Void, Void, String> {
         listener.returnString(result);
     }
 
-    public interface AsyncListener {
-        void returnString(String myString);
-    }
+
 }
